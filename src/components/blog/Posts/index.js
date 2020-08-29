@@ -5,6 +5,7 @@ import { gql, useQuery } from '@apollo/client';
 import { Link } from 'react-router-dom';
 //styles
 import styled from 'styled-components';
+import vars from 'components/styles/Vars';
 //components
 import Loading from 'components/ui/Loading';
 import ErrorLoading from 'components/ui/ErrorLoading';
@@ -20,6 +21,18 @@ const PostsWrap = styled.div`
 const PostsItem = styled.div`
   position: relative;
   margin-bottom: 60px;
+  &:hover {
+    h2 {
+      color: ${vars.colors.blue};
+    }
+  }
+  a {
+    display: block;
+    color: ${vars.colors.text};
+    &:hover {
+      color: ${vars.colors.text};
+    }
+  }
   h2 {
     margin-bottom: 5px;
   }

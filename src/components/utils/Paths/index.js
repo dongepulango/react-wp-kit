@@ -1,5 +1,5 @@
 const paths = {
-  graphqlURL: 'http://localhost:8888/react-wp/graphql',
+  graphqlURL: 'https://bb-gatsby-wp.000webhostapp.com/graphql',
 };
 
 export default paths;

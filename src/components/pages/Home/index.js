@@ -4,7 +4,6 @@ import styled from 'styled-components';
 //components
 import Layout from 'components/ui/Layout';
 import Container from 'components/ui/Container';
-import Heading from 'components/ui/Heading';
 //blog components
 import Posts from 'components/blog/Posts';
 
@@ -18,7 +17,6 @@ const Home = () => {
     <Layout>
       <HomeWrap>
         <Container>
-          <Heading heading1>Posts</Heading>
           <Posts />
         </Container>
       </HomeWrap>
